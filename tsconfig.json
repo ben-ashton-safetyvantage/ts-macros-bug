@@ -1,0 +1,19 @@
+{
+  "ts-node": {
+    "compiler": "ts-patch/compiler"
+  },
+  "compilerOptions": {
+    "target": "es2020",
+    "lib": ["ES2020"],
+    "esModuleInterop": true,
+    "module": "nodenext",
+    "types": ["node"],
+    "outDir": "dist/",
+    "plugins": [
+      {
+        "transform": "ts-macros"
+      }
+    ]
+  },
+  "include": ["./src/**/*"]
+}

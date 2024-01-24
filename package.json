@@ -1,0 +1,17 @@
+{
+  "name": "ts-macros-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "ts-patch install -s"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.6",
+    "ts-macros": "^2.6.0",
+    "ts-patch": "^3.1.2"
+  }
+}
